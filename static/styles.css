@@ -1,0 +1,80 @@
+body {
+    color: white;
+    background-image: linear-gradient(90deg, rgb(94, 93, 93), rgb(98, 210, 130));
+}
+
+.container {
+    font: 4em;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+}
+
+.container h1 {
+    font-size: 4em;
+}
+
+.container  p {
+    font-size: 2em;
+}
+
+.Title {
+    margin-bottom: 50px;
+}
+
+.field {
+    font-size: 2.5em;
+    border-radius: 15px;
+    margin-bottom: 25px;
+}
+
+.button {
+    color: white;
+    margin-top: 30px;
+    width: 200px;
+    height: 50px;
+    font-size: 1.5em;
+    border-radius: 15px;
+    background-color: rgb(142, 144, 142);
+    transition: transform 0.2s;
+}
+
+.redir1 {
+    margin-left: -35%;
+    margin-top: -300%;
+    color: white;
+    margin-top: 30px;
+    width: 280px;
+    height: 25px;
+    font-size: 1em;
+    border-radius: 15px;
+    background-color: rgb(142, 144, 142);
+    transition: transform 0.2s;
+}
+
+.button:hover {
+    transform: translateY(-10%);
+    background-color: rgb(7, 161, 43);
+    text-shadow: 2px 2px 2px rgb(126, 209, 219);
+}
+
+.redir1:hover {
+    transform: translateY(-10%);
+    background-color: rgb(7, 161, 43);
+    text-shadow: 2px 2px 2px rgb(126, 209, 219);
+}
+
+
+.redir2 {
+    margin-left: -35%;
+    margin-top: -300%;
+    color: white;
+    margin-top: 30px;
+    width: 280px;
+    height: 25px;
+    font-size: 1em;
+    border-radius: 15px;
+    background-color: rgb(142, 144, 142);
+    transition: transform 0.2s;
+}

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <title>Sign-Up</title>
+</head>
+<body>
+    <div class="container">
+        <div class="Title">
+            <h1><strong>Sign-Up Page</strong></h1>
+            <p>Welcome to the Sign-Up page! To register an account, please input the valid credentials in the fields below.</p>
+        </div>
+        <div class="main">
+            <form>
+                <input class="field" type="text" name="username_register" placeholder="Input a valid username!"><br>
+                <input class="field" type="text" name="password_register" placeholder="Input a valid password!"><br>
+                <button class="button" formmethod="post" formaction="{{ url_for('show_result') }}">Register</button>
+            </form>
+        </div>
+
+    </div>
+</body>
+</html>
